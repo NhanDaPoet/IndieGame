@@ -7,7 +7,7 @@ public class DodgeState : State
     protected D_DodgeState stateData;
 
     protected bool performCloseRangeAction;
-    protected bool isPPlayerInMaxAgroRange;
+    protected bool isPlayerInMaxAgroRange;
     protected bool isGrounded;
     protected bool isDodgeOver;
     public DodgeState(Entity etity, FiniteStateMachine stateMachine, string animGBooName, D_DodgeState stateData) : base(etity, stateMachine, animGBooName)
@@ -20,7 +20,7 @@ public class DodgeState : State
         base.DoChecks();
 
         performCloseRangeAction = entity.CheckPlayerInCloseRangeAction();
-        isPPlayerInMaxAgroRange = entity.CheckPlayerInMaxAgroRange();
+        isPlayerInMaxAgroRange = entity.CheckPlayerInMaxAgroRange();
         isGrounded = entity.CheckGround();
 
     }
