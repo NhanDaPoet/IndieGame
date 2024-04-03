@@ -41,6 +41,10 @@ public class E2_PlayerDetectedState : PlayerDetectedState
             }
 
         }
+        else if (performCloseRangeAction)
+        {
+            stateMachine.ChangeState(enemy.rangeAttackState);
+        }
         else if(!isPlayerInMaxAgroRange)
         {
             stateMachine.ChangeState(enemy.lookForPlayerState);

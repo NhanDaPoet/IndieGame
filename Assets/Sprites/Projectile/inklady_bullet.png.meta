@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a80abda6f1a152e4b819213e3587c770
+guid: 76b22620c7971ba409f6f1605a2eed86
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Snail-attack_0
+      name: inklady_bullet_0
       rect:
         serializedVersion: 2
         x: 0
@@ -137,14 +137,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 820447abc90482a4386b79811dd19411
-      internalID: -1613414902
+      spriteID: 0bfa4f3411d78244989201418eea5524
+      internalID: -842615556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snail-attack_1
+      name: inklady_bullet_1
       rect:
         serializedVersion: 2
         x: 100
@@ -158,14 +158,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3744de80548296443acd5f815009d37c
-      internalID: -1279063504
+      spriteID: 765d4ade9f12c8e4ba856752f0861554
+      internalID: 2057075890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snail-attack_2
+      name: inklady_bullet_2
       rect:
         serializedVersion: 2
         x: 200
@@ -179,14 +179,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f87c639a19a2b447a99045ff4d9c250
-      internalID: 320050685
+      spriteID: df52df3c7a82094409a6ea2661aaf4ac
+      internalID: -357373720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snail-attack_3
+      name: inklady_bullet_3
       rect:
         serializedVersion: 2
         x: 300
@@ -200,14 +200,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cee389b71fb90d14c8cc98e6eebdb546
-      internalID: -1612565489
+      spriteID: 913266ce2e7ecf54fb18371507cd1a70
+      internalID: -1742487932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snail-attack_4
+      name: inklady_bullet_4
       rect:
         serializedVersion: 2
         x: 400
@@ -221,14 +221,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bde567060acb30948a7806e61d65f327
-      internalID: 1502411790
+      spriteID: 2cfb296de26c4d2478be1ceb6abea238
+      internalID: -1115598943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snail-attack_5
+      name: inklady_bullet_5
       rect:
         serializedVersion: 2
         x: 500
@@ -242,14 +242,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dddb658bbb8cf404e8b761301484baac
-      internalID: 1170304709
+      spriteID: 5eb84f46c38adec4da12751b90f407e3
+      internalID: -535143859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snail-attack_6
+      name: inklady_bullet_6
       rect:
         serializedVersion: 2
         x: 600
@@ -263,14 +263,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4949c60240c35746a5a04d2e83253ad
-      internalID: 970664212
+      spriteID: 244fee2b07af0784490cfda7677653c7
+      internalID: -1961611192
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snail-attack_7
+      name: inklady_bullet_7
       rect:
         serializedVersion: 2
         x: 700
@@ -284,14 +284,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18c8ae69c1232b246b9a39ef91cbafac
-      internalID: -1387481738
+      spriteID: 7f23de34f9e3de94a9e700613e499232
+      internalID: 201175141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Snail-attack_8
+      name: inklady_bullet_8
       rect:
         serializedVersion: 2
         x: 800
@@ -305,29 +305,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 989611ed99a776844a49287d72c70400
-      internalID: -1256749985
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Snail-attack_9
-      rect:
-        serializedVersion: 2
-        x: 900
-        y: 0
-        width: 100
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5cac807122d73b498313b641ee50344
-      internalID: 325432476
+      spriteID: 62b1e59d51eaa1d4e831f5ac6f887021
+      internalID: 714043787
       vertices: []
       indices: 
       edges: []
@@ -343,16 +322,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Snail-attack_0: -1613414902
-      Snail-attack_1: -1279063504
-      Snail-attack_2: 320050685
-      Snail-attack_3: -1612565489
-      Snail-attack_4: 1502411790
-      Snail-attack_5: 1170304709
-      Snail-attack_6: 970664212
-      Snail-attack_7: -1387481738
-      Snail-attack_8: -1256749985
-      Snail-attack_9: 325432476
+      inklady_bullet_0: -842615556
+      inklady_bullet_1: 2057075890
+      inklady_bullet_2: -357373720
+      inklady_bullet_3: -1742487932
+      inklady_bullet_4: -1115598943
+      inklady_bullet_5: -535143859
+      inklady_bullet_6: -1961611192
+      inklady_bullet_7: 201175141
+      inklady_bullet_8: 714043787
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
