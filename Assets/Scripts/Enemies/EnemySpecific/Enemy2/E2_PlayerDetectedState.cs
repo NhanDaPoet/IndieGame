@@ -41,7 +41,7 @@ public class E2_PlayerDetectedState : PlayerDetectedState
             }
 
         }
-        else if (performCloseRangeAction)
+        else if (performLongRangeAction)
         {
             stateMachine.ChangeState(enemy.rangeAttackState);
         }

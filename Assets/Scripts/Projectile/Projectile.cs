@@ -20,6 +20,7 @@ public class Projectile : MonoBehaviour
     private bool isGravityOn;
     private bool hasHitGround;
 
+
     [SerializeField]
     private LayerMask whatIsGround;
     [SerializeField]
@@ -48,6 +49,10 @@ public class Projectile : MonoBehaviour
                 float angle = Mathf.Atan2(rb.velocity.y, rb.velocity.x) * Mathf.Rad2Deg;
                 transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
             }
+        }
+        else
+        {
+            Destroy(gameObject);
         }
     }
 

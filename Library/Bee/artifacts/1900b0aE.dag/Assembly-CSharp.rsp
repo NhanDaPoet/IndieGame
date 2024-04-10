@@ -117,7 +117,6 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
--define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -427,11 +426,23 @@
 "Assets/Scripts/Enemies/States/StunState.cs"
 "Assets/Scripts/Manager/GameManager.cs"
 "Assets/Scripts/Particle/Particle Controller.cs"
-"Assets/Scripts/Player/PlayerAfterImagePool.cs"
-"Assets/Scripts/Player/PlayerAfterImageSprite.cs"
-"Assets/Scripts/Player/PlayerCombatController.cs"
-"Assets/Scripts/Player/PlayerController.cs"
-"Assets/Scripts/Player/PlayerStats.cs"
+"Assets/Scripts/Player/Data/PlayerData.cs"
+"Assets/Scripts/Player/Input/PlayerInputHandler.cs"
+"Assets/Scripts/Player/Old/PlayerAfterImagePool.cs"
+"Assets/Scripts/Player/Old/PlayerAfterImageSprite.cs"
+"Assets/Scripts/Player/Old/PlayerCombatController.cs"
+"Assets/Scripts/Player/Old/PlayerController.cs"
+"Assets/Scripts/Player/Old/PlayerStats.cs"
+"Assets/Scripts/Player/PlayerFiniteStateMachine/Player.cs"
+"Assets/Scripts/Player/PlayerFiniteStateMachine/PlayerState.cs"
+"Assets/Scripts/Player/PlayerFiniteStateMachine/PlayerStateMachine.cs"
+"Assets/Scripts/Player/PlayerState/SubState/PlayerIdleState.cs"
+"Assets/Scripts/Player/PlayerState/SubState/PlayerInAirState.cs"
+"Assets/Scripts/Player/PlayerState/SubState/PlayerJumpState.cs"
+"Assets/Scripts/Player/PlayerState/SubState/PlayerLandState.cs"
+"Assets/Scripts/Player/PlayerState/SubState/PlayerMoveState.cs"
+"Assets/Scripts/Player/PlayerState/SuperState/PlayerAbilityState.cs"
+"Assets/Scripts/Player/PlayerState/SuperState/PlayerGroundedState.cs"
 "Assets/Scripts/Projectile/Projectile.cs"
 "Assets/Scripts/Structs/AttackDetails.cs"
 -langversion:9.0
