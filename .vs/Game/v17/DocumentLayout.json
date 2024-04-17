@@ -3,44 +3,92 @@
   "WorkspaceRootPath": "D:\\Project\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|d:\\project\\game\\assets\\scripts\\player\\playerstate\\superstate\\playerabilitystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\superstate\\playerabilitystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|d:\\project\\game\\assets\\scripts\\player\\playerfinitestatemachine\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerfinitestatemachine\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerstate\\substate\\playermovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\substate\\playermovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerstate\\substate\\playeridlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\substate\\playeridlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerstate\\superstate\\playergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\superstate\\playergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\input\\playerinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\input\\playerinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|d:\\project\\game\\assets\\scripts\\player\\playerstate\\substate\\playerdashstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\substate\\playerdashstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\data\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\data\\playerdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerfinitestatemachine\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerfinitestatemachine\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerstate\\superstate\\playergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\superstate\\playergroundedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerstate\\substate\\playerinairstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\substate\\playerinairstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\input\\playerinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\input\\playerinputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerstate\\superstate\\playerabilitystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\superstate\\playerabilitystate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|d:\\project\\game\\assets\\scripts\\player\\playerstate\\substate\\playerledgeclimbstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\substate\\playerledgeclimbstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerstate\\superstate\\playertouchingwallstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\superstate\\playertouchingwallstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerstate\\substate\\playerwallslidestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\substate\\playerwallslidestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerstate\\substate\\playerwallclimbstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\substate\\playerwallclimbstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerstate\\substate\\playerwallgrabstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\substate\\playerwallgrabstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerstate\\substate\\playerjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\substate\\playerjumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerfinitestatemachine\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerfinitestatemachine\\playerstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\animationtostatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animationtostatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerfinitestatemachine\\playerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerfinitestatemachine\\playerstatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerstate\\substate\\playerwalljumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\substate\\playerwalljumpstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerstate\\substate\\playerlandstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\substate\\playerlandstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerstate\\substate\\playeridlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\substate\\playeridlestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\player\\playerstate\\substate\\playermovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playerstate\\substate\\playermovestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\enemies\\state machine\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\state machine\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\enemies\\states\\movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\states\\movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\animationtostatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\animationtostatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\enemies\\states\\dodgestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,16 +107,8 @@
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemyspecific\\enemy2\\e2_dodgestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\projectile\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\projectile\\projectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\enemies\\enemyspecific\\enemy2\\e2_playerdetectedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemyspecific\\enemy2\\e2_playerdetectedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\enemies\\states\\rangeattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\states\\rangeattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\enemies\\enemyspecific\\enemy2\\e2_rangeattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -91,10 +131,6 @@
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemyspecific\\enemy2\\e2_stunstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\enemies\\enemyspecific\\enemy2\\e2_movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemyspecific\\enemy2\\e2_movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\enemies\\enemyspecific\\enemy2\\e2_meleeattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemyspecific\\enemy2\\e2_meleeattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -111,16 +147,8 @@
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemyspecific\\enemy2\\e2_deadstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\enemies\\states\\stunstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\states\\stunstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\enemies\\states\\playerdetectedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\states\\playerdetectedstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\enemies\\states\\movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\states\\movestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\enemies\\states\\meleeattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -149,14 +177,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\enemies\\state machine\\finitestatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\state machine\\finitestatemachine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\enemies\\state machine\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\state machine\\entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\enemies\\state machine\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\state machine\\state.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\scripts\\enemies\\states\\data\\d_chargestate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -238,44 +258,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerAbilityState.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerAbilityState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerAbilityState.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerAbilityState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerAbilityState.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerFiniteStateMachine\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerFiniteStateMachine\\Player.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerFiniteStateMachine\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerFiniteStateMachine\\Player.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwEAAAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T09:31:41.33Z",
+              "WhenOpened": "2024-04-08T04:41:27.212Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerDashState.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerDashState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerDashState.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerDashState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerDashState.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAwwCsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:19:37.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerData.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\Data\\PlayerData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Data\\PlayerData.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\Data\\PlayerData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\Data\\PlayerData.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-08T04:51:49.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerInAirState.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerInAirState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerInAirState.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerInAirState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerInAirState.cs",
+              "ViewState": "AQIAAGQAAAAAAAAAAAAcwHAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:41:49.052Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PlayerIdleState.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerIdleState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerIdleState.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerIdleState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerIdleState.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAA1wB4AAAAJAAAA",
+              "Title": "PlayerGroundedState.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerGroundedState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerGroundedState.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerGroundedState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerGroundedState.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwB8AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T05:28:00.766Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PlayerMoveState.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerMoveState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerMoveState.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerMoveState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerMoveState.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowCMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T05:27:59.951Z"
+              "WhenOpened": "2024-04-09T08:52:28.077Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -285,98 +334,112 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Input\\PlayerInputHandler.cs",
               "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\Input\\PlayerInputHandler.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\Input\\PlayerInputHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAATAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAlwBAAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T04:24:11.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PlayerGroundedState.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerGroundedState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerGroundedState.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerGroundedState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerGroundedState.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAwwB4AAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T08:52:28.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Player.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerFiniteStateMachine\\Player.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerFiniteStateMachine\\Player.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerFiniteStateMachine\\Player.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerFiniteStateMachine\\Player.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T04:41:27.212Z",
+              "WhenOpened": "2024-04-08T04:24:11.346Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "PlayerData.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\Data\\PlayerData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Data\\PlayerData.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\Data\\PlayerData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Player\\Data\\PlayerData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAoAAAA",
+              "Title": "PlayerAbilityState.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerAbilityState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerAbilityState.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerAbilityState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerAbilityState.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAcwCIAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T04:51:49.332Z"
+              "WhenOpened": "2024-04-10T09:31:41.33Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "PlayerLedgeClimbState.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerLedgeClimbState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerLedgeClimbState.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerLedgeClimbState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerLedgeClimbState.cs",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAmwFcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T17:57:07.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PlayerTouchingWallState.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerTouchingWallState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerTouchingWallState.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerTouchingWallState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SuperState\\PlayerTouchingWallState.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAuwFAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T00:04:10.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayerWallSlideState.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerWallSlideState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerWallSlideState.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerWallSlideState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerWallSlideState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:11:40.984Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlayerWallClimbState.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerWallClimbState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerWallClimbState.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerWallClimbState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerWallClimbState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:49:25.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PlayerWallGrabState.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerWallGrabState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerWallGrabState.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerWallGrabState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerWallGrabState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T08:12:48.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlayerJumpState.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerJumpState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerJumpState.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerJumpState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerJumpState.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T07:49:46.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "PlayerState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerFiniteStateMachine\\PlayerState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerFiniteStateMachine\\PlayerState.cs",
               "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerFiniteStateMachine\\PlayerState.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerFiniteStateMachine\\PlayerState.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAADgvx0AAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T04:41:26.667Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "AnimationToStatemachine.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\AnimationToStatemachine.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\AnimationToStatemachine.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\AnimationToStatemachine.cs",
-              "RelativeToolTip": "Assets\\Scripts\\AnimationToStatemachine.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T05:42:15.76Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Enemy2.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\Enemy2.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\Enemy2.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\Enemy2.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\Enemy2.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAAACgAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:01:36.94Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "E2_DodgeState.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_DodgeState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_DodgeState.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_DodgeState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_DodgeState.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:34:51.356Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "PlayerStateMachine.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerFiniteStateMachine\\PlayerStateMachine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerFiniteStateMachine\\PlayerStateMachine.cs",
@@ -388,19 +451,115 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Projectile.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Projectile\\Projectile.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Projectile\\Projectile.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Projectile\\Projectile.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Projectile\\Projectile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD0AAAAJAAAA",
+              "DocumentIndex": 15,
+              "Title": "PlayerWallJumpState.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerWallJumpState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerWallJumpState.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerWallJumpState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerWallJumpState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T18:19:40.389Z"
+              "WhenOpened": "2024-04-12T02:47:06.889Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 16,
+              "Title": "PlayerLandState.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerLandState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerLandState.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerLandState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerLandState.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAnwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-11T13:46:24.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PlayerIdleState.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerIdleState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerIdleState.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerIdleState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerIdleState.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAIA8wCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-16T04:54:29.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PlayerMoveState.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerMoveState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerMoveState.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerMoveState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerState\\SubState\\PlayerMoveState.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAvwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-10T05:27:59.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Entity.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\State Machine\\Entity.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\State Machine\\Entity.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\State Machine\\Entity.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\State Machine\\Entity.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAIwEgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-23T10:18:04.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MoveState.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\MoveState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\MoveState.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\MoveState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\States\\MoveState.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAowBcAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-05T04:23:57.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AnimationToStatemachine.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\AnimationToStatemachine.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\AnimationToStatemachine.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\AnimationToStatemachine.cs",
+              "RelativeToolTip": "Assets\\Scripts\\AnimationToStatemachine.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T05:42:15.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Enemy2.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\Enemy2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\Enemy2.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\Enemy2.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\Enemy2.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACgAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T10:01:36.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "E2_DodgeState.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_DodgeState.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_DodgeState.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_DodgeState.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_DodgeState.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T10:34:51.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "DodgeState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\DodgeState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\DodgeState.cs",
@@ -412,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 24,
               "Title": "D_DodgeState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\Data\\D_DodgeState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\Data\\D_DodgeState.cs",
@@ -424,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 26,
               "Title": "E2_PlayerDetectedState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_PlayerDetectedState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_PlayerDetectedState.cs",
@@ -436,19 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "RangeAttackState.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\RangeAttackState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\RangeAttackState.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\RangeAttackState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemies\\States\\RangeAttackState.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADIAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T14:45:49.966Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "E2_RangeAttackState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_RangeAttackState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_RangeAttackState.cs",
@@ -460,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 28,
               "Title": "D_RangeAttackState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\Data\\D_RangeAttackState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\Data\\D_RangeAttackState.cs",
@@ -472,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 29,
               "Title": "D_PlayerDetected.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\Data\\D_PlayerDetected.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\Data\\D_PlayerDetected.cs",
@@ -484,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 30,
               "Title": "D_DeadState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\Data\\D_DeadState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\Data\\D_DeadState.cs",
@@ -496,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 59,
               "Title": "PlayerCombatController.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerCombatController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerCombatController.cs",
@@ -508,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 60,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerController.cs",
@@ -520,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 31,
               "Title": "E2_StunState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_StunState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_StunState.cs",
@@ -532,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 32,
               "Title": "E2_MeleeAttackState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_MeleeAttackState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_MeleeAttackState.cs",
@@ -544,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 33,
               "Title": "E2_LookForPlayerState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_LookForPlayerState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_LookForPlayerState.cs",
@@ -556,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 34,
               "Title": "E2_IdleState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_IdleState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_IdleState.cs",
@@ -568,43 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "E2_MoveState.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_MoveState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_MoveState.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_MoveState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_MoveState.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAIwC4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-28T10:07:01.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "StunState.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\StunState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\StunState.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\StunState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemies\\States\\StunState.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAcwD8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:33:15.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "MoveState.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\MoveState.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\MoveState.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\MoveState.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemies\\States\\MoveState.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAIwDIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T04:23:57.525Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 37,
               "Title": "MeleeAttackState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\MeleeAttackState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\MeleeAttackState.cs",
@@ -616,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 38,
               "Title": "LookForPlayerState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\LookForPlayerState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\LookForPlayerState.cs",
@@ -628,7 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 35,
               "Title": "E2_DeadState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_DeadState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_DeadState.cs",
@@ -640,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 39,
               "Title": "IdleState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\IdleState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\IdleState.cs",
@@ -652,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 36,
               "Title": "PlayerDetectedState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\PlayerDetectedState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\PlayerDetectedState.cs",
@@ -664,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 40,
               "Title": "DeadState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\DeadState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\DeadState.cs",
@@ -676,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 42,
               "Title": "AttackState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\AttackState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\AttackState.cs",
@@ -688,7 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 43,
               "Title": "FiniteStateMachine.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\State Machine\\FiniteStateMachine.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\State Machine\\FiniteStateMachine.cs",
@@ -700,31 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "Entity.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\State Machine\\Entity.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\State Machine\\Entity.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\State Machine\\Entity.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemies\\State Machine\\Entity.cs",
-              "ViewState": "AQIAAIAAAAAAAAAAAAAuwKUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-23T10:18:04.806Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "State.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\State Machine\\State.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\State Machine\\State.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\State Machine\\State.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemies\\State Machine\\State.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAwwDAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-02T10:24:15.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 41,
               "Title": "ChargeState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\ChargeState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\ChargeState.cs",
@@ -736,7 +823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "D_ChargeState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\Data\\D_ChargeState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\Data\\D_ChargeState.cs",
@@ -748,7 +835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "D_MoveState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\Data\\D_MoveState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\Data\\D_MoveState.cs",
@@ -760,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "D_MeleeAttack.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\Data\\D_MeleeAttack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\Data\\D_MeleeAttack.cs",
@@ -772,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "D_LookForPlayer.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\Data\\D_LookForPlayer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\Data\\D_LookForPlayer.cs",
@@ -784,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "D_StunState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\Data\\D_StunState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\Data\\D_StunState.cs",
@@ -796,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "D_Entity.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\Data\\D_Entity.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\Data\\D_Entity.cs",
@@ -808,7 +895,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "D_IdleState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\States\\Data\\D_IdleState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\States\\Data\\D_IdleState.cs",
@@ -820,7 +907,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 51,
               "Title": "AttackDetails.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Structs\\AttackDetails.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Structs\\AttackDetails.cs",
@@ -832,7 +919,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 58,
               "Title": "E2_PlayerDetected.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_PlayerDetected.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy2\\E2_PlayerDetected.cs",
@@ -844,7 +931,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 52,
               "Title": "E1_ChargeState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy1\\E1_ChargeState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy1\\E1_ChargeState.cs",
@@ -856,7 +943,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 53,
               "Title": "Enemy1.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy1\\Enemy1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy1\\Enemy1.cs",
@@ -868,7 +955,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 55,
               "Title": "E1_LookForPlayerState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy1\\E1_LookForPlayerState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy1\\E1_LookForPlayerState.cs",
@@ -880,7 +967,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 54,
               "Title": "E1_MeleeAttackState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy1\\E1_MeleeAttackState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy1\\E1_MeleeAttackState.cs",
@@ -892,7 +979,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 56,
               "Title": "E1_MoveState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy1\\E1_MoveState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy1\\E1_MoveState.cs",
@@ -904,7 +991,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 57,
               "Title": "E1_IdleState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy1\\E1_IdleState.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\EnemySpecific\\Enemy1\\E1_IdleState.cs",
@@ -916,7 +1003,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 61,
               "Title": "PlayerAfterImagePool.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\Scripts\\Player\\PlayerAfterImagePool.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerAfterImagePool.cs",

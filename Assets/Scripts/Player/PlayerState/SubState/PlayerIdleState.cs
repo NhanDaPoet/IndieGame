@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerIdleState : PlayerGroundedState
 {
+
     public PlayerIdleState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
     }
@@ -11,6 +12,7 @@ public class PlayerIdleState : PlayerGroundedState
     public override void DoCheck()
     {
         base.DoCheck();
+
     }
 
     public override void Enter()
@@ -27,10 +29,16 @@ public class PlayerIdleState : PlayerGroundedState
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        if(xInput != 0)
+
+        if (!isExitingState)
         {
-            stateMachine.ChangeState(player.MoveState);
+            if (xInput != 0)
+            {
+                stateMachine.ChangeState(player.MoveState);
+            }
         }
+
+        
     }
 
     public override void PhysicsUpdate()
