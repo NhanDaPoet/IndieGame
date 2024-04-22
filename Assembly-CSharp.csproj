@@ -123,11 +123,13 @@
     <Compile Include="Assets\Scripts\Enemies\EnemySpecific\Enemy2\E2_DodgeState.cs" />
     <Compile Include="Assets\Scripts\Enemies\States\Data\D_DeadState.cs" />
     <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerState\SubState\PlayerCrouchMoveState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerState\SubState\PlayerDashState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerState\SubState\PlayerLedgeClimbState.cs" />
     <Compile Include="Assets\Scripts\Player\Old\PlayerCombatController.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerFiniteStateMachine\Player.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemySpecific\Enemy1\E1_LookForPlayerState.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerState\SubState\PlayerCrouchIdleState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerState\SuperState\PlayerAbilityState.cs" />
     <Compile Include="Assets\Scripts\Enemies\EnemySpecific\Enemy1\E1_ChargeState.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerState\SubState\PlayerWallSlideState.cs" />

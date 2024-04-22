@@ -116,7 +116,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
--define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
 -define:TEXTCORE_FONT_ENGINE_1_5_OR_NEWER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
@@ -436,6 +436,8 @@
 "Assets/Scripts/Player/PlayerFiniteStateMachine/Player.cs"
 "Assets/Scripts/Player/PlayerFiniteStateMachine/PlayerState.cs"
 "Assets/Scripts/Player/PlayerFiniteStateMachine/PlayerStateMachine.cs"
+"Assets/Scripts/Player/PlayerState/SubState/PlayerCrouchIdleState.cs"
+"Assets/Scripts/Player/PlayerState/SubState/PlayerCrouchMoveState.cs"
 "Assets/Scripts/Player/PlayerState/SubState/PlayerDashState.cs"
 "Assets/Scripts/Player/PlayerState/SubState/PlayerIdleState.cs"
 "Assets/Scripts/Player/PlayerState/SubState/PlayerInAirState.cs"
