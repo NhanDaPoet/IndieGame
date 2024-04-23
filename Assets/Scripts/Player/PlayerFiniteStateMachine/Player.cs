@@ -40,6 +40,8 @@ public class Player : MonoBehaviour
     private Transform wallCheck;
     [SerializeField]
     private Transform ledgeCheck;
+    [SerializeField]
+    private Transform ceilingCheck;
 
 
     #endregion
@@ -129,6 +131,10 @@ public class Player : MonoBehaviour
     #endregion
 
     #region Check Function
+    public bool CheckForCeiling()
+    {
+        return Physics2D.OverlapCircle(ceilingCheck.position, playerData.groundCheckRadius, playerData.whatIsGround);
+    }
 
     public bool CheckIfGrounded()
     {
@@ -138,7 +144,6 @@ public class Player : MonoBehaviour
     {
         return Physics2D.Raycast(wallCheck.position, Vector2.right * FacingDirection, playerData.wallCheckDistance, playerData.whatIsGround);
     }
-
     public bool CheckIfTouchingLedge()
     {
         return Physics2D.Raycast(ledgeCheck.position, Vector2.right * FacingDirection, playerData.wallCheckDistance, playerData.whatIsGround);
