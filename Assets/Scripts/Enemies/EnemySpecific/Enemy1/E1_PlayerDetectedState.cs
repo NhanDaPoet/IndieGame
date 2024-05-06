@@ -41,7 +41,7 @@ public class E1_PlayerDetectedState : PlayerDetectedState
         //Không phát hiện bục nhảy
         else if (!isDetectingLedge)
         {
-            entity.Flip();
+            Movement?.Flip();
             stateMachine.ChangeState(enemy.moveState);
         }
     }

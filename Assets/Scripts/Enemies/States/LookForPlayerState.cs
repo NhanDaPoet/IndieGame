@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class LookForPlayerState : State
 {
+    private Movement Movement { get => movement ?? core.GetCoreComponent(ref movement); }
+    private CollisionSenses CollisionSenses { get => collisionSenses ?? core.GetCoreComponent(ref collisionSenses); }
+
+    private Movement movement;
+    private CollisionSenses collisionSenses;
+
     protected D_LookForPlayer stateData;
 
     protected bool turnImmediately;
@@ -36,7 +42,7 @@ public class LookForPlayerState : State
         lastTurnTime = startTime;
         amountOfTurnsDone = 0;
 
-        entity.SetVelocity(0f);
+        Movement?.SetVelocityX(0f);
     }
 
     public override void Exit()
@@ -47,17 +53,17 @@ public class LookForPlayerState : State
     public override void LogicUpdate()
     {
         base.LogicUpdate();
-        entity.SetVelocity(0f);
+        Movement?.SetVelocityX(0f);
         if (turnImmediately)
         {
-            entity.Flip();
+            Movement?.Flip();
             lastTurnTime = Time.time;
             amountOfTurnsDone++;
             turnImmediately = false;
         }
         else if(Time.time >= lastTurnTime + stateData.timeBetweenTurns && !isAllTurnsDone)
         {
-            entity.Flip();
+            Movement?.Flip();
             lastTurnTime = Time.time;
             amountOfTurnsDone++;
         }

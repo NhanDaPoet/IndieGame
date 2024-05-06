@@ -4,17 +4,23 @@ using UnityEngine;
 
 public class PlayerJumpState : PlayerAbilityState
 {
+
     private int amountOfJumpsLeft;
     public PlayerJumpState(Player player, PlayerStateMachine stateMachine, PlayerData playerData, string animBoolName) : base(player, stateMachine, playerData, animBoolName)
     {
         amountOfJumpsLeft = playerData.amountOfJumps;
     }
 
+    public override void DoCheck()
+    {
+        base.DoCheck();
+
+    }
     public override void Enter()
     {
         base.Enter();
         player.InputHandler.UseJumpInput();
-        player.SetVelocityY(playerData.jumpVelocity);
+        Movement?.SetVelocityY(playerData.jumpVelocity);
         isAbilitityDone = true;
         amountOfJumpsLeft--;
         player.InAirState.SetIsJumping();
@@ -34,4 +40,5 @@ public class PlayerJumpState : PlayerAbilityState
     public void ResetAmountOfJumpsLeft() => amountOfJumpsLeft = playerData.amountOfJumps;
 
     public void DecreaseAmountOfJumpsLeft() => amountOfJumpsLeft--;
+
 }

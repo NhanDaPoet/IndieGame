@@ -4,9 +4,13 @@ using UnityEngine;
 
 public class MeleeAttackState : AttackState
 {
-    protected D_MeleeAttack stateData;
+    private Movement Movement { get => movement ?? core.GetCoreComponent(ref movement); }
+    private CollisionSenses CollisionSenses { get => collisionSenses ?? core.GetCoreComponent(ref collisionSenses); }
 
-    protected AttackDetails attackDetails;
+    private Movement movement;
+    private CollisionSenses collisionSenses;
+
+    protected D_MeleeAttack stateData;
 
     private Animator anim;
 
@@ -24,8 +28,6 @@ public class MeleeAttackState : AttackState
     {
         base.Enter();
 
-        attackDetails.damageAmount = stateData.attackDamage;
-        attackDetails.position = entity.aliveGO.transform.position;
     }
 
     public override void Exit()
@@ -56,7 +58,17 @@ public class MeleeAttackState : AttackState
         
         foreach (Collider2D collider in detectedObjects)
         {
-            collider.transform.SendMessage("Damage", attackDetails);
+            IDamageable damageable = collider.GetComponent<IDamageable>();
+
+            if(damageable != null)
+            {
+                damageable.Damage(stateData.attackDamage);
+            }
+            IKnockbackable knockbackable = collider.GetComponent<IKnockbackable>();
+            if(knockbackable != null)
+            {
+                knockbackable.Knockback(stateData.knockbackAngle, stateData.knockbackStrength, Movement.FacingDirection);
+            }
         }
     }
 }

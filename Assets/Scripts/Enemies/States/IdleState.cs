@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class IdleState : State
 {
+    private Movement Movement { get => movement ?? core.GetCoreComponent(ref movement); }
+    private CollisionSenses CollisionSenses { get => collisionSenses ?? core.GetCoreComponent(ref collisionSenses); }
+
+    private Movement movement;
+    private CollisionSenses collisionSenses;
+
     protected D_IdleState stateData;
 
     protected bool flipAfterIdle;
@@ -27,7 +33,7 @@ public class IdleState : State
     {
         base.Enter();
 
-        entity.SetVelocity(0f);
+        Movement?.SetVelocityX(0f);
         isIdleTimeOver = false;
         SetRandomIdleTime();
     }
@@ -38,7 +44,7 @@ public class IdleState : State
 
         if (flipAfterIdle)
         {
-            entity.Flip();
+            Movement?.Flip();
         }
     }
 
@@ -46,7 +52,9 @@ public class IdleState : State
     {
         base.LogicUpdate();
 
-        if(Time.time >= startTime * idleTime)
+        Movement?.SetVelocityX(0f);
+
+        if (Time.time >= startTime * idleTime)
         {
             isIdleTimeOver = true;
         }

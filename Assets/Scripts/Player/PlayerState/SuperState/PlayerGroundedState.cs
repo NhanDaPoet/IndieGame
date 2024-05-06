@@ -10,6 +10,12 @@ public class PlayerGroundedState : PlayerState
 
     protected bool isTouchingCeiling;
 
+    protected Movement Movement { get => movement ?? core.GetCoreComponent(ref movement);  }
+    private Movement movement;
+
+    private CollisionSenses CollisionSenses {get => collisionSenses ?? core.GetCoreComponent<CollisionSenses>();}
+    private CollisionSenses collisionSenses;
+
     private bool JumpInput;
     private bool grabInput;
     private bool isGrounded;
@@ -24,10 +30,14 @@ public class PlayerGroundedState : PlayerState
     {
         base.DoCheck();
 
-        isGrounded = player.CheckIfGrounded();
-        isTouchingWall = player.CheckIfTouchingWall();
-        isTouchingLedge = player.CheckIfTouchingLedge();
-        isTouchingCeiling = player.CheckForCeiling();
+        if (CollisionSenses)
+        {
+            isGrounded = CollisionSenses.Grounded;
+            isTouchingWall = CollisionSenses.WallFront;
+            isTouchingLedge = CollisionSenses.LedgeHorizontal;
+            isTouchingCeiling = CollisionSenses.Ceiling;
+
+        }
     }
 
     public override void Enter()
@@ -53,16 +63,24 @@ public class PlayerGroundedState : PlayerState
         grabInput = player.InputHandler.GrabInput;
         dashInput = player.InputHandler.DashInput;
 
-        if(JumpInput && player.JumpState.CanJump() && !isTouchingCeiling)
+        if (player.InputHandler.AttackIputs[(int)CombatInputs.primary] && !isTouchingCeiling)
+        {
+            stateMachine.ChangeState(player.PrimaryAttackState);
+        }
+        else if (player.InputHandler.AttackIputs[(int)CombatInputs.secondary] && !isTouchingCeiling)
+        {
+            stateMachine.ChangeState(player.SecondaryAttackState);
+        }
+        else if (JumpInput && player.JumpState.CanJump() && !isTouchingCeiling)
         {
             stateMachine.ChangeState(player.JumpState);
         }
-        else if(!isGrounded)
+        else if (!isGrounded)
         {
             player.InAirState.StartCoyoteTime();
             stateMachine.ChangeState(player.InAirState);
         }
-        else if(isTouchingWall && grabInput && isTouchingLedge)
+        else if (isTouchingWall && grabInput && isTouchingLedge)
         {
             stateMachine.ChangeState(player.WallGrabState);
         }
@@ -71,7 +89,6 @@ public class PlayerGroundedState : PlayerState
             stateMachine.ChangeState(player.DashState);
         }
     }
-
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();

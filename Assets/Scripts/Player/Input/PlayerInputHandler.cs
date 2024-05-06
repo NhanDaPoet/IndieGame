@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,6 +21,7 @@ public class PlayerInputHandler : MonoBehaviour
     public bool GrabInput { get; private set; }
     public bool DashInput { get; private set; }
     public bool DashInputStop { get; private set; }
+    public bool[] AttackIputs { get; private set; }
 
     [SerializeField]
     private float inputHoldTime = 0.2f;
@@ -30,6 +32,12 @@ public class PlayerInputHandler : MonoBehaviour
     private void Start()
     {
         playerInput = GetComponent<PlayerInput>();
+
+        //type the enum, then select option to using System in library
+        //Count the enum "CombatInputs" : GetValues to take off of array that have the values of CombatInputs, then use Lenght to count array. in this situation, the count will comprise all of Input.
+        int count = Enum.GetValues(typeof(CombatInputs)).Length;
+        AttackIputs = new bool[count];
+
         cam = Camera.main;
     }
 
@@ -38,29 +46,39 @@ public class PlayerInputHandler : MonoBehaviour
         CheckJumpInputHoldTime();
         CheckDashInputHoldTime();
     }
+
+    public void OnPrimaryAttackInput(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            AttackIputs[(int)CombatInputs.primary] = true;
+        }
+
+        if (context.canceled)
+        {
+            AttackIputs[(int)CombatInputs.primary] = false;
+        }
+    }
+
+    public void OnSecondaryAttackInput(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            AttackIputs[(int)CombatInputs.secondary] = true;
+        }
+
+        if (context.canceled)
+        {
+            AttackIputs[(int)CombatInputs.secondary] = false;
+        }
+    }
+
     public void OnMoveInput(InputAction.CallbackContext context)
     {
         RawMovementInput = context.ReadValue<Vector2>();
 
-        if(Mathf.Abs(RawMovementInput.x) > 0.5f)
-        {
-            NormInputX = (int)(RawMovementInput * Vector2.right).normalized.x;
-        }
-        else
-        {
-            NormInputX = 0;
-        }
-
-        if(Mathf.Abs((float)RawMovementInput.y) > 0.5f)
-        {
-            NormInputY = (int)(RawMovementInput * Vector2.up).normalized.y;
-        }
-        else
-        {
-            NormInputY = 0;
-        }
-        
-        
+        NormInputX = Mathf.RoundToInt(RawMovementInput.x);
+        NormInputY = Mathf.RoundToInt(RawMovementInput.y);       
     }
     public void OnJumpInput(InputAction.CallbackContext context)
     {
@@ -132,4 +150,11 @@ public class PlayerInputHandler : MonoBehaviour
             DashInput = false;
         }
     }
+}
+
+//Defined name of Input
+public enum CombatInputs
+{
+    primary,
+    secondary
 }
