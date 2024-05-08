@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f747a1618fc104c904f06a0241bb37, type: 3}
+  m_Name: Sword_1
+  m_EditorClassIdentifier: 
+  <NumberOfAttacks>k__BackingField: 3
+  <componentData>k__BackingField:
+  - rid: 6395587752428830721
+  references:
+    version: 2
+    RefIds:
+    - rid: 6395587752428830721
+      type: {class: WeaponSpriteData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+        - <Sprites>k__BackingField:
+          - {fileID: -1120280256, guid: e731a53eacd40354a95fa6f82724a819, type: 3}
+          - {fileID: -1307209518, guid: e731a53eacd40354a95fa6f82724a819, type: 3}
+          - {fileID: 1355877737, guid: e731a53eacd40354a95fa6f82724a819, type: 3}
+          - {fileID: 1463638985, guid: e731a53eacd40354a95fa6f82724a819, type: 3}
+          - {fileID: -794682764, guid: e731a53eacd40354a95fa6f82724a819, type: 3}
+        - <Sprites>k__BackingField:
+          - {fileID: -1732501338, guid: e731a53eacd40354a95fa6f82724a819, type: 3}
+          - {fileID: 1979959209, guid: e731a53eacd40354a95fa6f82724a819, type: 3}
+          - {fileID: 1154862767, guid: e731a53eacd40354a95fa6f82724a819, type: 3}
+          - {fileID: 776340959, guid: e731a53eacd40354a95fa6f82724a819, type: 3}
+          - {fileID: -939048924, guid: e731a53eacd40354a95fa6f82724a819, type: 3}
+        - <Sprites>k__BackingField:
+          - {fileID: -712370028, guid: e731a53eacd40354a95fa6f82724a819, type: 3}
+          - {fileID: -1406957012, guid: e731a53eacd40354a95fa6f82724a819, type: 3}
+          - {fileID: 2115492881, guid: e731a53eacd40354a95fa6f82724a819, type: 3}
+          - {fileID: -686019812, guid: e731a53eacd40354a95fa6f82724a819, type: 3}
+          - {fileID: 1777038482, guid: e731a53eacd40354a95fa6f82724a819, type: 3}

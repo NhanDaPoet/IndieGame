@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93f747a1618fc104c904f06a0241bb37, type: 3}
+  m_Name: Sword_2
+  m_EditorClassIdentifier: 
+  <NumberOfAttacks>k__BackingField: 3
+  <componentData>k__BackingField:
+  - rid: 6395587752428830723
+  references:
+    version: 2
+    RefIds:
+    - rid: 6395587752428830723
+      type: {class: WeaponSpriteData, ns: , asm: Assembly-CSharp}
+      data:
+        <AttackData>k__BackingField:
+        - <Sprites>k__BackingField:
+          - {fileID: -139453956, guid: c3fc51d0b5556e14d93d3daf99eb68c9, type: 3}
+          - {fileID: 1870046776, guid: c3fc51d0b5556e14d93d3daf99eb68c9, type: 3}
+          - {fileID: -1900136311, guid: c3fc51d0b5556e14d93d3daf99eb68c9, type: 3}
+          - {fileID: 1541464779, guid: c3fc51d0b5556e14d93d3daf99eb68c9, type: 3}
+          - {fileID: 915383880, guid: c3fc51d0b5556e14d93d3daf99eb68c9, type: 3}
+        - <Sprites>k__BackingField:
+          - {fileID: -1280430841, guid: c3fc51d0b5556e14d93d3daf99eb68c9, type: 3}
+          - {fileID: 973312806, guid: c3fc51d0b5556e14d93d3daf99eb68c9, type: 3}
+          - {fileID: -1144252924, guid: c3fc51d0b5556e14d93d3daf99eb68c9, type: 3}
+          - {fileID: -1448471135, guid: c3fc51d0b5556e14d93d3daf99eb68c9, type: 3}
+          - {fileID: -40973547, guid: c3fc51d0b5556e14d93d3daf99eb68c9, type: 3}
+        - <Sprites>k__BackingField:
+          - {fileID: -252177417, guid: c3fc51d0b5556e14d93d3daf99eb68c9, type: 3}
+          - {fileID: -435050855, guid: c3fc51d0b5556e14d93d3daf99eb68c9, type: 3}
+          - {fileID: 803209330, guid: c3fc51d0b5556e14d93d3daf99eb68c9, type: 3}
+          - {fileID: 389422453, guid: c3fc51d0b5556e14d93d3daf99eb68c9, type: 3}
+          - {fileID: -1272233802, guid: c3fc51d0b5556e14d93d3daf99eb68c9, type: 3}
