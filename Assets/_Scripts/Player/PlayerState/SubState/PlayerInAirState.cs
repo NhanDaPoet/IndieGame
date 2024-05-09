@@ -95,11 +95,11 @@ public class PlayerInAirState : PlayerState
 
         CheckJumpMultiplier();
 
-        if (player.InputHandler.AttackIputs[(int)CombatInputs.primary])
+        if (player.InputHandler.AttackIputs[(int)CombatInputs.primary] && isGrounded)
         {
             stateMachine.ChangeState(player.PrimaryAttackState);
         }
-        else if (player.InputHandler.AttackIputs[(int)CombatInputs.secondary])
+        else if (player.InputHandler.AttackIputs[(int)CombatInputs.secondary] && isGrounded)
         {
             stateMachine.ChangeState(player.SecondaryAttackState);
         }

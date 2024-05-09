@@ -30,14 +30,14 @@ public class Core : MonoBehaviour
     public T GetCoreComponent<T>() where T : CoreComponent
     {
         var comp = CoreComponents.OfType<T>().FirstOrDefault();
-        if (comp) 
+        if (comp)
             return comp;
         comp = GetComponentInChildren<T>();
 
         if (comp)
             return comp;
-            Debug.LogWarning($"{typeof(T)} not found on {transform.parent.name}");
-            return null;
+        Debug.LogWarning($"{typeof(T)} not found on {transform.parent.name}");
+        return null;
     }
     public T GetCoreComponent<T>(ref T value) where T : CoreComponent
     {
@@ -45,3 +45,4 @@ public class Core : MonoBehaviour
         return value;
     }
 }
+

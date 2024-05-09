@@ -9,7 +9,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>DaPoet</RootNamespace>
     <ProjectGuid>{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -152,6 +152,7 @@
     <Compile Include="Assets\_Scripts\Intermediaries\AnimationToStatemachine.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\_Scripts\AfterImage\PlayerAfterImageSprite.cs" />
+    <Compile Include="Assets\_Scripts\Weapons\Components\C_Movement.cs" />
     <Compile Include="Assets\_Scripts\Enemies\States\Data\D_ChargeState.cs" />
     <Compile Include="Assets\_Scripts\Core\CoreComponents\CollisionSenses.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
@@ -170,6 +171,7 @@
     <Compile Include="Assets\_Scripts\Player\PlayerState\SubState\PlayerLedgeClimbState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\_Scripts\Enemies\State Machine\State.cs" />
+    <Compile Include="Assets\_Scripts\Weapons\Components\ComponentData\MovementData.cs" />
     <Compile Include="Assets\_Scripts\Enemies\States\Data\D_LookForPlayer.cs" />
     <Compile Include="Assets\_Scripts\Interface\ILogicUpdate.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
@@ -177,6 +179,7 @@
     <Compile Include="Assets\_Scripts\Enemies\States\LookForPlayerState.cs" />
     <Compile Include="Assets\_Scripts\Weapons\Components\WeaponSprite.cs" />
     <Compile Include="Assets\_Scripts\Player\PlayerState\SubState\PlayerCrouchMoveState.cs" />
+    <Compile Include="Assets\_Scripts\Weapons\Components\ComponentData\AttackData\AttackMovement.cs" />
     <Compile Include="Assets\_Scripts\Player\PlayerState\SuperState\PlayerAbilityState.cs" />
     <Compile Include="Assets\_Scripts\Projectile\Projectile.cs" />
     <Compile Include="Assets\_Scripts\Enemies\States\Data\D_IdleState.cs" />
