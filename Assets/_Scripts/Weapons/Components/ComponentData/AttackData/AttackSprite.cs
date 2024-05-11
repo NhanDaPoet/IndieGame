@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [Serializable]
-public class AttackSprite 
+public class AttackSprite : AttackData
 {
     [field: SerializeField] public Sprite[] Sprites {  get;private set; }
 }

@@ -3,16 +3,96 @@
   "WorkspaceRootPath": "D:\\Project\\Game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\player\\playerstate\\substate\\playerinairstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\player\\playerstate\\substate\\playerinairstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|d:\\project\\game\\assets\\_scripts\\enemies\\combattestdummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\enemies\\combattestdummy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|d:\\project\\game\\assets\\_scripts\\core\\corecomponents\\knockbackreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\core\\corecomponents\\knockbackreceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\damage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\interface\\iknockbackable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\interface\\iknockbackable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\core\\corecomponents\\damagereceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\core\\corecomponents\\damagereceiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\interface\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\interface\\idamageable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{196F3426-96BD-E564-A156-57572DB80A48}|Assembly-CSharp-Editor.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\editor\\weapondatasoeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{196F3426-96BD-E564-A156-57572DB80A48}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\_scripts\\weapons\\editor\\weapondatasoeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\actionhitbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\actionhitbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\componentdata\\actionhitboxdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\componentdata\\actionhitboxdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\componentdata\\damagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\componentdata\\damagedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\componentdata\\attackdata\\attackdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\componentdata\\attackdata\\attackdamage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\componentdata\\componentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\componentdata\\componentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\componentdata\\attackdata\\attackdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\componentdata\\attackdata\\attackdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\componentdata\\attackdata\\attackactionhitbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\componentdata\\attackdata\\attackactionhitbox.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\weaponcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\weaponcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\core\\corecomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\core\\corecomp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\core\\corecomponents\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\core\\corecomponents\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\animationeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\animationeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\scriptableobjects\\weapondataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\scriptableobjects\\weapondataso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\weaponcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\weaponcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\componentdata\\weaponspritedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\componentdata\\weaponspritedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\weaponsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\weaponsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\componentdata\\movementdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\componentdata\\movementdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\c_movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,32 +103,12 @@
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\componentdata\\attackdata\\attackmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\weapon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\componentdata\\movementdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\componentdata\\movementdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\componentdata\\componentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\componentdata\\componentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\componentdata\\weaponspritedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\componentdata\\weaponspritedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\componentdata\\attackdata\\attacksprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\componentdata\\attackdata\\attacksprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\core\\corecomponents\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\core\\corecomponents\\movement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\animationeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\animationeventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\player\\playerstate\\substate\\playerinairstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\player\\playerstate\\substate\\playerinairstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\player\\playerfinitestatemachine\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,10 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\player\\playerstate\\substate\\playerattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\player\\playerstate\\substate\\playerattackstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\weapons\\components\\weaponsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\weapons\\components\\weaponsprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}|Assembly-CSharp.csproj|D:\\Project\\Game\\assets\\_scripts\\name\\utilities\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -142,90 +198,327 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "Weapon.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Weapon.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Weapon.cs",
               "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Weapon.cs",
               "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Weapon.cs",
-              "ViewState": "AQIAAEIAAAAAAAAAAAAswFQAAAAAAAAA",
+              "ViewState": "AQIAAEIAAAAAAAAAAAA7wFQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-07T02:50:30.675Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "C_Movement.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\C_Movement.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\C_Movement.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\C_Movement.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\C_Movement.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T05:43:18.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "WeaponComponent.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\WeaponComponent.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\WeaponComponent.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\WeaponComponent.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\WeaponComponent.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBgAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T12:41:46.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WeaponDataSO.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\ScriptableObjects\\WeaponDataSO.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\ScriptableObjects\\WeaponDataSO.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\ScriptableObjects\\WeaponDataSO.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\ScriptableObjects\\WeaponDataSO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T11:31:47.122Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PlayerInAirState.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerInAirState.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerInAirState.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerInAirState.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerInAirState.cs",
-              "ViewState": "AQIAAFkAAAAAAAAAAAAuwF4AAAAAAAAA",
+              "Title": "CombatTestDummy.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Enemies\\CombatTestDummy.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Enemies\\CombatTestDummy.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Enemies\\CombatTestDummy.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Enemies\\CombatTestDummy.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T02:45:33.609Z",
+              "WhenOpened": "2024-05-11T06:00:39.053Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "DamageReceiver.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Core\\CoreComponents\\DamageReceiver.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Core\\CoreComponents\\DamageReceiver.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Core\\CoreComponents\\DamageReceiver.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Core\\CoreComponents\\DamageReceiver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T05:27:33.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KnockBackReceiver.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Core\\CoreComponents\\KnockBackReceiver.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Core\\CoreComponents\\KnockBackReceiver.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Core\\CoreComponents\\KnockBackReceiver.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Core\\CoreComponents\\KnockBackReceiver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T05:26:02.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDamageable.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Interface\\IDamageable.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Interface\\IDamageable.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Interface\\IDamageable.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Interface\\IDamageable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T05:25:04.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Damage.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\Damage.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\Damage.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\Damage.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\Damage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T03:50:36.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IKnockBackable.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Interface\\IKnockBackable.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Interface\\IKnockBackable.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Interface\\IKnockBackable.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Interface\\IKnockBackable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T05:37:53.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ActionHitboxData.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\ActionHitboxData.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\ActionHitboxData.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\ActionHitboxData.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\ActionHitboxData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T11:10:01.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ActionHitBox.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ActionHitBox.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\ActionHitBox.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ActionHitBox.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\ActionHitBox.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwBgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T11:10:47.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WeaponDataSOEditor.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Editor\\WeaponDataSOEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Editor\\WeaponDataSOEditor.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Editor\\WeaponDataSOEditor.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Editor\\WeaponDataSOEditor.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAEwDIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T08:05:54.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DamageData.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\DamageData.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\DamageData.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\DamageData.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\DamageData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T03:49:36.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AttackData.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackData.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackData.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackData.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T07:42:55.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AttackDamage.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackDamage.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackDamage.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackDamage.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackDamage.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-11T03:41:22.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ComponentData.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\ComponentData.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\ComponentData.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\ComponentData.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\ComponentData.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAawCYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T12:00:25.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WeaponComponent.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\WeaponComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\WeaponComponent.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\WeaponComponent.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\WeaponComponent.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAIwDQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T12:41:46.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AttackActionHitBox.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackActionHitBox.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackActionHitBox.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackActionHitBox.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackActionHitBox.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T11:09:04.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CoreComp.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Core\\CoreComp.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Core\\CoreComp.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Core\\CoreComp.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Core\\CoreComp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-10T11:53:35.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Movement.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Core\\CoreComponents\\Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Core\\CoreComponents\\Movement.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Core\\CoreComponents\\Movement.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Core\\CoreComponents\\Movement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T08:59:03.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AnimationEventHandler.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\AnimationEventHandler.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\AnimationEventHandler.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\AnimationEventHandler.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\AnimationEventHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T08:37:03.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "C_Movement.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\C_Movement.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\C_Movement.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\C_Movement.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\C_Movement.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T05:43:18.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MovementData.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\MovementData.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\MovementData.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\MovementData.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\MovementData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T08:56:45.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WeaponDataSO.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\ScriptableObjects\\WeaponDataSO.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\ScriptableObjects\\WeaponDataSO.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\ScriptableObjects\\WeaponDataSO.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\ScriptableObjects\\WeaponDataSO.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA5wBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T11:31:47.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WeaponSprite.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\WeaponSprite.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\WeaponSprite.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\WeaponSprite.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\WeaponSprite.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-07T12:42:10.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WeaponSpriteData.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\WeaponSpriteData.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\WeaponSpriteData.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\WeaponSpriteData.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\WeaponSpriteData.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T12:01:36.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
               "Title": "AttackMovement.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackMovement.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackMovement.cs",
               "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackMovement.cs",
               "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackMovement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T05:57:51.709Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-09T05:57:51.709Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
+              "Title": "AttackSprite.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackSprite.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackSprite.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackSprite.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackSprite.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-08T12:03:27.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerFiniteStateMachine\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerFiniteStateMachine\\Player.cs",
@@ -237,79 +530,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MovementData.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\MovementData.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\MovementData.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\MovementData.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\MovementData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAAAAAA",
+              "DocumentIndex": 26,
+              "Title": "PlayerInAirState.cs",
+              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerInAirState.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerInAirState.cs",
+              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerInAirState.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerInAirState.cs",
+              "ViewState": "AQIAAFkAAAAAAAAAAAAuwF4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T08:56:45.784Z"
+              "WhenOpened": "2024-05-07T02:45:33.609Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ComponentData.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\ComponentData.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\ComponentData.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\ComponentData.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\ComponentData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T12:00:25.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AnimationEventHandler.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\AnimationEventHandler.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\AnimationEventHandler.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\AnimationEventHandler.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\AnimationEventHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T08:37:03.292Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Movement.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Core\\CoreComponents\\Movement.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Core\\CoreComponents\\Movement.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Core\\CoreComponents\\Movement.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Core\\CoreComponents\\Movement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-09T08:59:03.172Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AttackSprite.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackSprite.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackSprite.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackSprite.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\AttackData\\AttackSprite.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T12:03:27.289Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WeaponSpriteData.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\WeaponSpriteData.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\WeaponSpriteData.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\ComponentData\\WeaponSpriteData.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\ComponentData\\WeaponSpriteData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-08T12:01:36.652Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 28,
               "Title": "Core.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Core\\Core.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Core\\Core.cs",
@@ -321,7 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 29,
               "Title": "PlayerAttackState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerAttackState.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerAttackState.cs",
@@ -333,19 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "WeaponSprite.cs",
-              "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\WeaponSprite.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Weapons\\Components\\WeaponSprite.cs",
-              "ToolTip": "D:\\Project\\Game\\Assets\\_Scripts\\Weapons\\Components\\WeaponSprite.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Weapons\\Components\\WeaponSprite.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowCQAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T12:42:10.305Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 30,
               "Title": "Timer.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\NAME\\Utilities\\Timer.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\NAME\\Utilities\\Timer.cs",
@@ -357,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 31,
               "Title": "PlayerState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerFiniteStateMachine\\PlayerState.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerFiniteStateMachine\\PlayerState.cs",
@@ -369,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 32,
               "Title": "PlayerStateMachine.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerFiniteStateMachine\\PlayerStateMachine.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerFiniteStateMachine\\PlayerStateMachine.cs",
@@ -381,7 +602,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 35,
               "Title": "PlayerWallClimbState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerWallClimbState.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerWallClimbState.cs",
@@ -393,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 34,
               "Title": "PlayerWallGrabState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerWallGrabState.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerWallGrabState.cs",
@@ -405,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 33,
               "Title": "PlayerWallSlideState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerWallSlideState.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerWallSlideState.cs",
@@ -417,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 36,
               "Title": "PlayerMoveState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerMoveState.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerMoveState.cs",
@@ -429,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 37,
               "Title": "PlayerLedgeClimbState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerLedgeClimbState.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerLedgeClimbState.cs",
@@ -441,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 38,
               "Title": "PlayerLandState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerLandState.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerLandState.cs",
@@ -453,7 +674,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 39,
               "Title": "PlayerJumpState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerJumpState.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerJumpState.cs",
@@ -465,7 +686,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 40,
               "Title": "PlayerIdleState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerIdleState.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerIdleState.cs",
@@ -477,7 +698,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 41,
               "Title": "PlayerDashState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerDashState.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerDashState.cs",
@@ -489,7 +710,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 42,
               "Title": "PlayerCrouchMoveState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerCrouchMoveState.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerCrouchMoveState.cs",
@@ -501,7 +722,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 43,
               "Title": "PlayerCrouchIdleState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerCrouchIdleState.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerState\\SubState\\PlayerCrouchIdleState.cs",
@@ -513,7 +734,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 44,
               "Title": "PlayerTouchingWallState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SuperState\\PlayerTouchingWallState.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerState\\SuperState\\PlayerTouchingWallState.cs",
@@ -525,7 +746,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 45,
               "Title": "PlayerAbilityState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SuperState\\PlayerAbilityState.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerState\\SuperState\\PlayerAbilityState.cs",
@@ -537,7 +758,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 46,
               "Title": "PlayerGroundedState.cs",
               "DocumentMoniker": "D:\\Project\\Game\\Assets\\_Scripts\\Player\\PlayerState\\SuperState\\PlayerGroundedState.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Player\\PlayerState\\SuperState\\PlayerGroundedState.cs",

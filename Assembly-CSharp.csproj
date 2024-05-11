@@ -9,7 +9,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>DaPoet</RootNamespace>
+    <RootNamespace></RootNamespace>
     <ProjectGuid>{DDFBC18F-9396-3137-9CFE-DEB2CDB74636}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -73,6 +73,7 @@
     <Compile Include="Assets\_Scripts\Enemies\EnemySpecific\Enemy1\E1_MeleeAttackState.cs" />
     <Compile Include="Assets\_Scripts\Enemies\States\StunState.cs" />
     <Compile Include="Assets\_Scripts\Enemies\EnemySpecific\Enemy2\E2_RangeAttackState.cs" />
+    <Compile Include="Assets\_Scripts\Core\CoreComponents\KnockBackReceiver.cs" />
     <Compile Include="Assets\_Scripts\Core\Core.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
@@ -99,6 +100,7 @@
     <Compile Include="Assets\_Scripts\Enemies\States\IdleState.cs" />
     <Compile Include="Assets\_Scripts\Player\PlayerFiniteStateMachine\PlayerStateMachine.cs" />
     <Compile Include="Assets\_Scripts\Particle\Particle Controller.cs" />
+    <Compile Include="Assets\_Scripts\Weapons\Components\ComponentData\AttackData\AttackData.cs" />
     <Compile Include="Assets\_Scripts\Enemies\States\Data\D_MoveState.cs" />
     <Compile Include="Assets\_Scripts\Player\Data\PlayerData.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
@@ -106,13 +108,14 @@
     <Compile Include="Assets\_Scripts\Player\PlayerState\SubState\PlayerDashState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
-    <Compile Include="Assets\_Scripts\Core\CoreComponents\Combat.cs" />
     <Compile Include="Assets\_Scripts\Weapons\Components\ComponentData\WeaponSpriteData.cs" />
     <Compile Include="Assets\_Scripts\Core\CoreComponents\ParticleManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\_Scripts\Core\CoreComponents\Stats.cs" />
     <Compile Include="Assets\_Scripts\Enemies\States\Data\D_StunState.cs" />
     <Compile Include="Assets\_Scripts\Player\Input\PlayerInputHandler.cs" />
+    <Compile Include="Assets\_Scripts\Weapons\Components\Damage.cs" />
+    <Compile Include="Assets\_Scripts\Core\CoreComp.cs" />
     <Compile Include="Assets\_Scripts\Weapons\Components\ComponentData\ComponentData.cs" />
     <Compile Include="Assets\_Scripts\Enemies\EnemySpecific\Enemy2\Enemy2.cs" />
     <Compile Include="Assets\_Scripts\Enemies\States\Data\D_RangeAttackState.cs" />
@@ -132,6 +135,7 @@
     <Compile Include="Assets\_Scripts\AfterImage\PlayerAfterImagePool.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\_Scripts\Enemies\EnemySpecific\Enemy1\E1_LookForPlayerState.cs" />
+    <Compile Include="Assets\_Scripts\Core\CoreComponents\DamageReceiver.cs" />
     <Compile Include="Assets\_Scripts\Player\PlayerState\SuperState\PlayerTouchingWallState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\FloatingText.cs" />
@@ -148,11 +152,13 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\_Scripts\Enemies\EnemySpecific\Enemy1\Enemy1.cs" />
+    <Compile Include="Assets\_Scripts\Weapons\Components\ComponentData\AttackData\AttackDamage.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\_Scripts\Intermediaries\AnimationToStatemachine.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\_Scripts\AfterImage\PlayerAfterImageSprite.cs" />
     <Compile Include="Assets\_Scripts\Weapons\Components\C_Movement.cs" />
+    <Compile Include="Assets\_Scripts\Weapons\Components\ComponentData\AttackData\AttackActionHitBox.cs" />
     <Compile Include="Assets\_Scripts\Enemies\States\Data\D_ChargeState.cs" />
     <Compile Include="Assets\_Scripts\Core\CoreComponents\CollisionSenses.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
@@ -162,12 +168,14 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\_Scripts\Player\PlayerState\SubState\PlayerAttackState.cs" />
+    <Compile Include="Assets\_Scripts\Weapons\Components\ActionHitBox.cs" />
     <Compile Include="Assets\_Scripts\Core\CoreComponents\Movement.cs" />
     <Compile Include="Assets\_Scripts\Enemies\States\RangeAttackState.cs" />
     <Compile Include="Assets\_Scripts\Enemies\EnemySpecific\Enemy1\E1_DeadState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\_Scripts\Player\PlayerState\SubState\PlayerLandState.cs" />
     <Compile Include="Assets\_Scripts\Enemies\States\Data\D_MeleeAttack.cs" />
+    <Compile Include="Assets\_Scripts\Weapons\Components\ComponentData\DamageData.cs" />
     <Compile Include="Assets\_Scripts\Player\PlayerState\SubState\PlayerLedgeClimbState.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\_Scripts\Enemies\State Machine\State.cs" />
@@ -189,6 +197,7 @@
     <Compile Include="Assets\_Scripts\Enemies\EnemySpecific\Enemy2\E2_DeadState.cs" />
     <Compile Include="Assets\_Scripts\Enemies\CombatTestDummy.cs" />
     <Compile Include="Assets\_Scripts\Enemies\States\Data\D_DodgeState.cs" />
+    <Compile Include="Assets\_Scripts\Weapons\Components\ComponentData\ActionHitboxData.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\_Scripts\Weapons\Components\WeaponComponent.cs" />
     <Compile Include="Assets\_Scripts\Enemies\States\MoveState.cs" />
